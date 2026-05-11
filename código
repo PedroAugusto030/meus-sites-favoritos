@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus sites favoritos</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; padding: 20px; background-color: #f0f2f5; }
+        h1 { color: #333; margin-bottom: 30px; }
+        .site-container { 
+            background: white; 
+            margin: 20px auto; 
+            padding: 20px; 
+            border-radius: 12px; 
+            width: 350px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+        }
+        /* Ajuste das imagens para manter um padrão visual */
+        img { 
+            width: 250px; 
+            height: 150px; 
+            object-fit: contain; 
+            border: 1px solid #eee; 
+            border-radius: 8px; 
+        }
+        /* Estilização dos links de acesso */
+        a { 
+            display: block; 
+            margin-top: 15px; 
+            color: #007bff; 
+            text-decoration: none; 
+            font-weight: bold; 
+            font-size: 1.1em;
+        }
+        a:hover { text-decoration: underline; color: #0056b3; }
+    </style>
+</head>
+<body>
+
+    <h1>Meus sites favoritos: Pedro Augusto</h1>
+
+    <div class="site-container">
+        <h1>Instagram</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuH7c5cLpGehi0b4iQk90fXUzC9p7Ebla13w&s" alt="Logo Instagram">
+        <a href="https://www.instagram.com/" target="_blank">Acessar Instagram</a>
+    </div>
+
+    <div class="site-container">
+        <h1>TikTok</h1>
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/016/716/450/small/tiktok-icon-free-png.png" alt="Logo TikTok">
+        <a href="https://www.tiktok.com/pt-BR/" target="_blank">Acessar TikTok</a>
+    </div>
+
+    <div class="site-container">
+        <h1>Globo</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIGqCfHrzzBrLHLge-1--1YxLIv8sqv2wcOQ&s" alt="Logo Globo">
+        <a href="https://www.globo.com/" target="_blank">Acessar Globo</a>
+    </div>
+
+    <div class="site-container">
+        <h1>Mercado Livre</h1>
+        <img src="https://99prod.s3.amazonaws.com/uploads/678e6c2b-7539-4881-bb6f-22aded41d92f/novo%20logo.JPG" alt="Logo Mercado Livre">
+        <a href="https://www.mercadolivre.com.br/" target="_blank">Acessar Mercado Livre</a>
+    </div>
+
+    <div class="site-container">
+        <h1>UOL</h1>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG7KyR2BN697YJvYmg9Qwdw4OT5dBuvb181w&s" alt="Logo UOL">
+        <a href="https://www.uol.com.br/" target="_blank">Acessar UOL</a>
+    </div>
+
+</body>
+</html>
